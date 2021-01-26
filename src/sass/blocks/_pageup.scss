@@ -1,0 +1,17 @@
+.pageup {
+    display: none;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    width: 40px;
+    height: 40px;
+    &:hover {
+        svg path {
+            fill: rgba(0, 0, 0, 0.5);
+            transition: all 0.5s;
+        }
+    }
+    img {
+        width: 100%;
+    }
+}

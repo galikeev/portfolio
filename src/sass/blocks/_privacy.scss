@@ -1,0 +1,22 @@
+.privacy {
+    color: #000;
+    ol, li {
+        list-style-type: none;
+    }
+    a {
+        text-decoration: none;
+        color: #000;
+    }
+    &__item {
+        padding-left: 30px;
+    }
+    
+}
+.link {
+    border-bottom: 1.5px dotted #fa8669;
+}
+.mark {
+    display: inline;
+    padding: .05em;
+    background-color: #fcf8e3;
+}
