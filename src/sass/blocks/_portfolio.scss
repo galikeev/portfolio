@@ -3,9 +3,9 @@
     &__wrapper {
         padding-top: 60px;
         display: grid;
-        grid-auto-columns: repeat(4, 280px);
-        grid-template-rows: repeat(2, minmax(280px, auto));
-        grid-auto-rows: minmax(280px, auto);
+        grid-template-columns: repeat(4, 280px);
+        grid-template-rows: repeat(2, 280px);
+        grid-auto-rows: 280px;
         gap: 5px;
         .vertical {
             grid-row: 1 / 3;

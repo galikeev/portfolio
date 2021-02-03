@@ -133,7 +133,7 @@ $(document).ready(function(){
                     email: "Ваш email должен быть в формате name@domain.com"
                 },
                 check: {
-                    required: "Вы должны согласиться с политикой конфиденциальности"
+                    required: "Согласие обязательно"
                 }
             }
         });

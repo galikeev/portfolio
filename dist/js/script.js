@@ -44,26 +44,6 @@ counters.forEach( (item, i) => {
 
 
 $(document).ready(function(){
-
-// Modal
-
-
-
-    // $('.contacts__btn').on('click', function(){
-    //     $('.overlay, #box').fadeIn('slow');
-    //     setTimeout('$(".overlay, #box").hide();',2000);
-    //     // setTimeout('.overlay, #box').fadeOut('slow');
-    // });
-
-    // const overlay = document.querySelector('.overlay');
-
-    // $('.overlay').on('click', function(e) {
-    //     if (e.target === overlay) {
-    //         $('.overlay, #box').fadeOut('slow');
-    //     }
-    // });
-    
-    
     
     
 // Scroll
@@ -126,8 +106,6 @@ $(document).ready(function(){
     });
 
 
-    // ddsds
-
     // Form
 
     function valideForms(form) {
@@ -155,7 +133,7 @@ $(document).ready(function(){
                     email: "Ваш email должен быть в формате name@domain.com"
                 },
                 check: {
-                    required: "Вы должны согласиться с политикой конфиденциальности"
+                    required: "Согласие обязательно"
                 }
             }
         });
@@ -185,11 +163,6 @@ $(document).ready(function(){
         });
         return false;
     });
-
-
-
-
-
 
 });
 
