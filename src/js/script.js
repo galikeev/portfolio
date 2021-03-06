@@ -1,6 +1,7 @@
 const hamburger = document.querySelector('.hamburger'),
-    menu = document.querySelector('.menu'),
-    closeElem = document.querySelector('.menu__close');
+      menu = document.querySelector('.menu'),
+      closeElem = document.querySelector('.menu__close'),
+      overlay = document.querySelector('.menu__overlay');
 
 hamburger.addEventListener('click', () => {
     menu.classList.add('active');
@@ -10,21 +11,13 @@ closeElem.addEventListener('click', () => {
     menu.classList.remove('active');
 });
 
-
-const overlay = document.querySelector('.menu__overlay');
-    window = document.querySelector('.menu__overlay');
-
-window.addEventListener('click', (e) => {
+overlay.addEventListener('click', (e) => {
     if (e.target == overlay) {
         menu.classList.remove('active');
     }
 }); 
 
-
-const Escape = document.querySelector('.menu__overlay');
-    window = document.querySelector('.menu__overlay');
-
-window.addEventListener("keydown", (e) => {
+overlay.addEventListener("keydown", (e) => {
     if (e.key == 'Escape') {
         menu.classList.remove('active');
     }
@@ -137,7 +130,7 @@ $(document).ready(function(){
                 }
             }
         });
-    };
+    }
 
     valideForms('#request');
 
@@ -158,7 +151,7 @@ $(document).ready(function(){
         }).done(function() {
             $(this).find("input").val("");
             $('.overlay, #box').fadeIn('slow');
-            setTimeout('$(".overlay, #box").hide();',2000);
+            $('$(".overlay, #box").hide();',2000);
             $('form').trigger('reset');
         });
         return false;

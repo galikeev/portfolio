@@ -149,7 +149,6 @@
         &__btn {
             font-size: 12px;
             line-height: 15px;
-            padding-top: 5px;
         }
     }
 }
@@ -343,14 +342,13 @@
             grid-column: unset;
             grid-template-columns: 1fr;
             column-gap: unset;
-            row-gap: 20px;
+            row-gap: 25px;
         }
         &__btn {
             order: 2;
             max-width: 220px;
             margin: 0 auto;
             line-height: 21px;
-            padding-top: 10px;
         }
         &__policy {
             width: 180px;
