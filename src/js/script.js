@@ -17,7 +17,7 @@ overlay.addEventListener('click', (e) => {
     }
 }); 
 
-overlay.addEventListener("keydown", (e) => {
+window.addEventListener("keydown", (e) => {
     if (e.key == 'Escape') {
         menu.classList.remove('active');
     }
