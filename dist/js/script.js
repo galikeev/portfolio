@@ -151,8 +151,10 @@ $(document).ready(function(){
         }).done(function() {
             $(this).find("input").val("");
             $('.overlay, #box').fadeIn('slow');
-            $('$(".overlay, #box").hide();',2000);
-            $('form').trigger('reset');
+            setTimeout(function(){
+                $(".overlay, #box").hide();
+                $('form').trigger('reset');
+            }, 2000);
         });
         return false;
     });
